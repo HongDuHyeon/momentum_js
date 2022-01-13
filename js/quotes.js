@@ -43,20 +43,20 @@ author.innerText = todaysQuote.author;
 
 
 // Math.random에서 뒤에 소수점 없애기
-console.log(Math.floor(Math.random() * 10 ) )
+// console.log(Math.floor(Math.random() * 10 ) )
 
 // 반올림
-console.log(Math.round(1.8))
+// console.log(Math.round(1.8))
 // 1.1 > 1
 // 1.6 > 2
 
 // 올림
-console.log(Math.ceil(1.1))
+// console.log(Math.ceil(1.1))
 // 1.1 > 2
 // 1.8 > 2
 
 // 내림
-console.log(Math.floor(1.2))
+// console.log(Math.floor(1.2))
 // 1.1 > 1
 // 1.9 > 1
 // 1.99999 > 1

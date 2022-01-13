@@ -18,6 +18,5 @@ const bgImage = document.createElement("img");
 
 bgImage.src = `images/${chosenImage}`;
 
-console.log(bgImage);
 
 document.body.appendChild(bgImage)
