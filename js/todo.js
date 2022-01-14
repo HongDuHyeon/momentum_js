@@ -18,7 +18,10 @@ function deleteTodo(event) {
     // event는 paintToDo에 있는 newBtn에 대한 element info를 가져옴
     // target은 click된 html element
     // parentElement 는 click된 element의 부모 요소
-    deleteEl.remove();
+
+deleteEl.remove();
+toDos = toDos.filter((toDo) => toDo.id !== parseInt(deleteEl.id))
+saveTodos();
 }
 
 
